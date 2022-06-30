@@ -13,6 +13,7 @@
     font-family:"DM Sans", sans-seri;
     line-height: 54px;
     align-items: center;
+    text-shadow: 0 0 3px #FF0000;
 }
 .container_3 p{
 padding-left: 10.2rem;
