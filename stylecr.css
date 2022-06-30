@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+    color: #884EA0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-left: 4rem;
+}
+
+/* fixed a area */
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 250px;
+    gap: 7rem;
+    padding-top: 30px;
+    position: fixed;
+    z-index: 10000;
+    /* background: linear-gradient(to right, green,blue); */
+    width: 100%;
+    background-color: white;
+    margin-top: -1.3rem;
+    margin-bottom: -1.2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 1rem;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #884EA0;
+    color: #884EA0;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 19px;
+    transition: transform .4s;
+    margin-right: 5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.btn:hover {
+    transform: scale(.8);
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+}
+
+.name {
+    font-family: Inter, sans-serif;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+
+.vv {
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.visual {
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+.btn2 {
+    margin-top: 5rem;
+}
+
+.say {
+    background-color: #6244c5;
+    color: #FDFEFE;
+    text-decoration: none;
+    border: 1px solid;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 18px;
+}
+
+.say:hover {
+    background-color: black;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.my {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: black;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.my:hover {
+    border-bottom: 2px solid black;
+    color: black;
+
+}
+
+.follow {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.follow a {
+    border: 1px solid #f0eeee;
+    background: #f0eeee;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.follow p {
+    letter-spacing: 1px;
+}
+
+.follow a:hover {
+    border: 1px solid #000;
+}
+
+.follow a i {
+    width: 20px;
+    text-align: center;
+}
+
+.img1 {
+    margin: 0 auto;
+}
+
+.img1 img {
+    width: 500px;
+}
+
+.about_section {
+    background-color: #6244c5;
+    height: 500px;
+
+}
+
+.aboutMe {
+    padding-left: 50rem;
+    padding-top: 5rem;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+.aboutMe2 {
+    padding-left: 46rem;
+    padding-top: 3rem;
+    color: #FFFFF7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    opacity: 70%;
+}
+
+.cv {
+    text-align: right;
+    margin-right: 32rem;
+    margin-top: 2rem;
+}
+
+.cv-1 {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 25px 40px;
+    background-color: white;
+    border-radius: 17px;
+}
+
+.cv-1:hover {
+    color: white;
+    background-color: black;
+    transition: .8s;
+}
