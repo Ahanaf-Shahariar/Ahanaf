@@ -20,6 +20,10 @@ padding-top: 2rem;
 opacity: 80%;
 line-height: 1.5rem;
 }
+.intro::first-letter{
+    color: red;
+    font-size: 200%;
+}
 .container_4{
     width: 92%;
     text-align: center;
