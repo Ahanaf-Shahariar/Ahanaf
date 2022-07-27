@@ -231,7 +231,7 @@
 /* .skill-body animated-finished */
 .contact{
     background-color: #12141d;
-    height: 80vh;
+    height: 45vh;
     text-align: center;
     /* display: flex;
     flex-direction: column; */
@@ -250,14 +250,56 @@
     padding-top: 3rem;
     opacity: 50%;
 }
+
 .contact3{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 85%;
-    padding-bottom: 30rem;
+    text-align: right;
+    padding-right: 8rem;
 }
-/* .contact3{
-    width: 100%;
-text-align: right;
-padding-right: 8rem;
-} */
+.contact_last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:18rem;
+    background-color: #12141d;
+    color: white;
+    height: 30vh;
+    font-size: 20px;
+}
+span.cell{
+    opacity: 0.5;
+}
+span.buds{
+    font-size: 15px;
+}
+.follow_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.follow_1 a {
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+    justify-content: space-evenly;
+    height:50px;
+    width:50px;
+}
+.follow_1 p {
+    letter-spacing: 1px;
+}
+
+.follow_1 a:hover {
+ background: whitesmoke;
+ color: black;
+ transition: .8s;
+}
+.end{
+    display: flex;
+    background-color: #ffc448;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}

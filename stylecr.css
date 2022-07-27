@@ -14,12 +14,15 @@
 
 }
 
-.logo {
+/* .logo {
     color: #884EA0;
     font-size: 30px;
     letter-spacing: 2px;
     cursor: pointer;
     padding-left: 4rem;
+} */
+.hero img{
+    padding-left: 2rem;
 }
 
 /* fixed a area */
